@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav" class="bg-darkgrey">
+        <div class="container d-flex justify-content-between align-items-center p-4 flex-wrap ">
+            <div class="nav-logo d-flex flex-grow-1 gap-2 p-2">
+                <div class="logo w-64px">
+                    <img src="assets/images/logo@2x.png" alt="" class="w-100">
+                </div>
+                
+                <div class="content">
+                    <h1 class="fs-16 text-white fw-bolder mb-1">Weather</h1>
+                    <p class="fs-10 text-white fw-lighter">tagline goes here</p>
+                </div>
+            </div>
+            <div class="nav-list  p-2 ">
+                <ul class="list-unstyled d-flex  gap-3 fs-14 text-white">
+                    <li class="py-1 px-3 rounded-5">Home</li>
+                    <li class="py-1 px-3 rounded-5">News</li>
+                    <li class="py-1 px-3 rounded-5">Live cameras</li>
+                    <li class="py-1 px-3 rounded-5">Photos</li>
+                    <li class="py-1 px-3 rounded-5">Contact</li>
+                </ul>
+            </div>
+            <div class="burger-button text-white d-none">
+                <i class="fa-solid fa-bars fa-xl mb-4"></i>
+            </div>
+            <div class="nav-list-slide w-100  align-items-center justify-content-center rounded-3 bg-ggrey">
+                <ul class="list-unstyled  fs-14 text-white text-center w-100">
+                    <li class="py-3 border border-start-0 border-end-0 border-top-0">Home</li>
+                    <li class="py-3 border border-start-0 border-end-0 border-top-0">News</li>
+                    <li class="py-3 border border-start-0 border-end-0 border-top-0">Live cameras</li>
+                    <li class="py-3 border border-start-0 border-end-0 border-top-0">Photos</li>
+                    <li class="py-3">Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="hero" class="bg-darkgrey">
+        <div class="container py-5">
+            <div class="row mb-5  my-0 gx-0">
+                <div class="col-12 mb-5">
+                    <div class="search-container position-relative ">
+                        <input type="search" class="search w-100 bg-darkgrey ps-3 text-white py-30px rounded-5 border border-0 " placeholder="Find your location...">
+                        <button class="search-btn bg-color-blue border-0 rounded-5 py-2 px-4 position-absolute text-white ">Search</button>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 sec-color rounded-top-left rounded-bottom-left">
+                    <div class="card-head bg-darkgrey  text-white d-flex justify-content-between p-2 rounded-top-left  head-color">
+                        <p class="p-0 m-0 fs-14 cur-day">sunday</p>
+                        <p class="p-0 m-0 fs-14"><span class="cur-day-num"></span> <span class="cur-mon"></span></p>
+                    </div>
+                    <div class="card-temp  ">
+                        
+                        <div class="content text-center p-3 text-white">
+                            <h3 class="fs-18 country">Juan Santamaría International Airport</h3>
+                            <div class="temprature d-flex justify-content-around align-items-center">
+                                <h2 class="fs-90"><span id="temp-c">20</span>°C</h2>
+                                <img src="assets/images/116.png" class="w-25 temp-icon">
+                            </div>
+                            <p class="text-start fs-14 f-color-blue card-1-condition">Partly cloudy</p>
+                            <div class="list d-flex gap-3">
+                                <p><img src="assets/images/icon-umberella@2x.png" alt="" class="size"><span class="fs-14 f-grey ps-1 hum">18</span></p>
+                                <p><img src="assets/images/icon-wind@2x.png" alt="" class="size"><span class="fs-14 f-grey ps-1 wind">18</span></p>
+                                <p><img src="assets/images/icon-compass@2x.png" alt="" class="size"><span class="fs-14 f-grey ps-1 direction">18</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 bg-darkgrey ">
+                    <div class="card-head  head-color text-white text-center p-2 ">
+                        <p class="p-0 m-0 fs-14 day-2-head">Monday</p>
+                    </div>
+                    <div class="card-body d-flex flex-column justify-content-center align-items-center py-4 text-white">
+                        <img src="assets/images/302.png" class="size-48 day-2-img" alt="">
+                        <p><span class="day-2-c-max"></span>°c</p>
+                        <p><span class="day-2-c-min"></span>°c</p>
+                        <p class="f-color-blue day-2-info">moderate rain</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-12 sec-color  rounded-top-right rounded-bottom-right">
+                    <div class="card-head bg-darkgrey text-white text-center p-2 rounded-top-right head-color ">
+                        <p class="p-0 m-0 fs-14 day-3-head">Monday</p>
+                    </div>
+                    <div class="card-body  d-flex flex-column justify-content-center align-items-center py-4 text-white">
+                        <img src="assets/images/302.png" class="size-48 day-3-img" alt="">
+                        <p><span class="day-3-c-max"></span>°c</p>
+                        <p><span class="day-3-c-min"></span>°c</p>
+                        <p class="f-color-blue day-3-info">moderate rain</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="sec-color">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xl-8">
+                    <div class="search-container position-relative ">
+                        <input type="search" class="search-footer w-100 bg-darkgrey ps-3 text-white py-30px rounded-5 border border-0 " placeholder="Enter your email...">
+                        <button class="search-btn-footer bg-color-blue border-0 rounded-5 py-2 px-4 position-absolute text-white ">Search</button>
+                        <p class="text-white pt-5 fs-14">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                    </div>
+                    
+                </div>
+                <div class="col-xl-3">
+                    <div class="social-links  text-center">
+                        <a href="#"><i class="fa-brands fa-facebook p-2 bg-ggrey rounded-circle"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter p-2 bg-ggrey rounded-circle"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus p-2 bg-ggrey rounded-circle"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest p-2 bg-ggrey rounded-circle"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="assets/JS/jquery-3.7.1.min.js"></script>
+    <script src="assets/JS/mainpage.js"></script>
+    
+</body>
+</html>

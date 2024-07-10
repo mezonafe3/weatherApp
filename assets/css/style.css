@@ -1,0 +1,163 @@
+.w-30{
+    width: 30%;
+}
+.w-35{
+    width: 35%;
+}
+.w-40{
+    width: 40%;
+}
+.w-64px{
+   width: 64px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fw-500{
+    font-weight: 500;
+}
+.line-30{
+    line-height: 60px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.color{
+    color: #777777;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.fs-90{
+    font-size: 90px;
+}
+.f-color-blue{
+    color: #009ad8;
+}
+.f-grey{
+    color: #bfc1c8;
+}
+.bg-fgrey{
+    background-color: #bfc1c8;
+}
+.bg-color-blue{
+    background-color: #009ad8;
+}
+.bg-darkgrey{
+    background-color: #1e202b;
+}
+.bg-ggrey{
+    background-color: #3c3e48;
+}
+.py-30px{
+    padding: 15px 0 15px 0;
+}
+.sec-color{
+    background-color: #262936;
+}
+.head-color{
+    background-color: #2d303d;
+}
+
+.size{
+    width: 21px;
+    height: 21px;
+}
+.size-48{
+    width: 48px;
+    height: 48px;
+}
+.nav-list li{
+    border: 2px solid #009ad8;
+    border-color: transparent;
+    transition: all 0.5s;
+
+}
+.nav-list-slide{
+    display: none;
+}
+.nav-list li:hover{
+    color: #009ad8;
+    border-color: #009ad8;
+}
+.nav-list-slide li:hover{
+    color: #009ad8;
+}
+.nav-list li:nth-child(1){
+    color: #009ad8;
+    border-color: #009ad8;
+}
+#hero .search-btn{
+    
+    top: 5px;
+  right: 5px;
+  bottom: 5px;
+}
+#footer .search-btn-footer{
+    right:5px;
+    top: 5px;
+    /* bottom: 5px; */
+}
+.rounded-top-left{
+    border-top-left-radius: 15px;
+}
+.rounded-bottom-left{
+    border-bottom-left-radius: 15px;
+}
+.rounded-top-right{
+    border-top-right-radius: 15px;
+}
+.rounded-bottom-right{
+    border-bottom-right-radius: 15px;
+}
+/* #hero .search::placeholder{
+    padding-left: 2%;
+}
+#hero {
+    /* padding-left: 40%; */
+/*} */
+#hero{
+    background-image: url("../images/banner\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width:1000px) {
+    nav .burger-button{
+        display: block !important;
+    }
+    nav .nav-list{
+        display: none;
+    }
+    /* .nav-list-slide{
+        display: none;
+    } */
+}
+@media screen and (max-width:650px) {
+    .rounded-top-left{
+        border-top-left-radius: 0px  ;
+    }
+    .rounded-bottom-left{
+        border-bottom-left-radius: 0px ;
+    }
+    .rounded-top-right{
+        border-top-right-radius: 0px ;
+    }
+    .rounded-bottom-right{
+        border-bottom-right-radius: 0px ;
+    }
+}
